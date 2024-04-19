@@ -238,6 +238,176 @@ export default function Home() {
         <div className="p-2 flex-1 border-4 borer-blue-500">3 hello</div>
         <div className="p-2 flex-1 border-4 borer-blue-500">4 hello</div>
       </div>
+
+      {/* Grid */}
+      <h2>1</h2>
+      <div className="grid grid-cols-3 gap-2 border-4 border-red-400">
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+      </div>
+
+      <h2>2</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-2 border-4 border-red-500">
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+      </div>
+
+      <h2>3</h2>
+      <div className="grid grid-cols-3 grid-rows-3 gap-2 border-4 border-red-400">
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+      </div>
+      <h2>4</h2>
+      <div className="grid grid-cols-3 grid-rows-3 gap-2 border-4 border-red-400">
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+      </div>
+      <h2>5</h2>
+      <div className="grid grid-cols-4 grid-rows-3 grid-flow-row gap-2 border-4 border-red-400">
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+        <div className="border-4 border-blue-500">hello</div>
+      </div>
+      <h2>6</h2>
+      <div className="grid grid-cols-4 grid-rows-4 gap-2 border-4 border-red-400">
+        <div className="col-span-2 row-span-2 border-4 border-blue-500">
+          hello1
+        </div>
+        <div className="col-span-2 border-4 border-blue-500">hello2</div>
+        <div className="border-4 border-blue-500">hello3</div>
+        <div className="border-4 border-blue-500">hello4</div>
+        <div className="border-4 border-blue-500">hello5</div>
+        <div className="border-4 border-blue-500">hello6</div>
+      </div>
+      <h2>7</h2>
+      <div className="grid grid-cols-4 grid-rows-4 gap-2 border-4 border-red-400">
+        <div className="col-start-1 col-end-3 row-start-1 row-end-3 border-4 border-blue-500">
+          hello 1
+        </div>
+        <div className="border-4 border-blue-500">hello 2</div>
+        <div className="border-4 border-blue-500">hello 3</div>
+        <div className="border-4 border-blue-500">hello 4</div>
+        <div className="border-4 border-blue-500">hello 5</div>
+        <div className="border-4 border-blue-500">hello 6</div>
+      </div>
+      <h2>8</h2>
+      <div className="grid grid-cols-4 grid-rows-4 gap-2 border-4 border-red-400">
+        <div className="border-4 border-blue-500">hello 1</div>
+        <div className="col-start-2 row-start-1 border-4 border-blue-500">
+          hello 2
+        </div>
+        <div className="border-4 border-blue-500">hello 3</div>
+        <div className="border-4 border-blue-500">hello 4</div>
+        <div className="border-4 border-blue-500">hello 5</div>
+        <div className="border-4 border-blue-500">hello 6</div>
+      </div>
+
+      <h2>9</h2>
+      <div className="grid grid-cols-4 grid-rows-4 gap-2 border-4 border-red-400">
+        <div className="md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-3 border-4 border-blue-500">
+          hello 1
+        </div>
+        <div className="border-4 border-blue-500">hello 2</div>
+        <div className="border-4 border-blue-500">hello 3</div>
+        <div className="border-4 border-blue-500">hello 4</div>
+        <div className="border-4 border-blue-500">hello 5</div>
+        <div className="border-4 border-blue-500">hello 6</div>
+      </div>
+
+      <h2>10</h2>
+      <div className="grid grid-cols-4 grid-rows-4 gap-2 border-4 border-red-400">
+        <div className="border-4 border-blue-500">hello 1</div>
+        <div className="border-4 border-blue-500">hello 2</div>
+        <div className="border-4 border-blue-500">hello 3</div>
+        <div className="md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-3 border-4 border-blue-500">
+          hello 4
+        </div>
+        <div className="border-4 border-blue-500">hello 5</div>
+        <div className="border-4 border-blue-500">hello 6</div>
+      </div>
+
+      {/* items-center, items-start , items-end, items-stretch */}
+      <h2>11</h2>
+      <div className="grid grid-cols-4 grid-rows-4 items-center gap-2 border-4 border-red-400">
+        <div className="border-4 border-blue-500">hello 1</div>
+        <div className="border-4 border-blue-500">hello 2</div>
+        <div className="border-4 border-blue-500">hello 3</div>
+        <div className="md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-3 border-4 border-blue-500">
+          hello 4
+        </div>
+        <div className="md:col-start-1 md:col-end-3 md:row-start-2 md:row-end-4 border-4 border-blue-500">
+          hello 5
+        </div>
+        <div className="border-4 border-blue-500">hello 6</div>
+      </div>
+
+      <h2>12</h2>
+      <div className="grid grid-cols-4 grid-rows-4 items-stretch gap-2 border-4 border-red-400">
+        <div className="h-20 border-4 border-blue-500">hello 1</div>
+        <div className="border-4 border-blue-500">hello 2</div>
+        <div className="h-20 border-4 border-blue-500">hello 3</div>
+        <div className="h-20 border-4 border-blue-500">hello 4</div>
+        <div className="h-20 border-4 border-blue-500">hello 5</div>
+        <div className="h-20 border-4 border-blue-500">hello 6</div>
+      </div>
+      {/* <!-- justify-items-start, justify-items-end, justify-items-center --> */}
+      <h2>13</h2>
+      <div className="grid grid-cols-4 grid-rows-4 justify-items-stretch gap-2 border-4 border-red-400">
+        <div className="h-20 border-4 border-blue-500">hello 1</div>
+        <div className="border-4 border-blue-500">hello 2</div>
+        <div className="h-20 border-4 border-blue-500">hello 3</div>
+        <div className="h-20 border-4 border-blue-500">hello 4</div>
+        <div className="h-20 border-4 border-blue-500">hello 5</div>
+        <div className="h-20 border-4 border-blue-500">hello 6</div>
+      </div>
+
+      {/* <!-- content-start, content-end, content-center, content-between, content-around --> */}
+      <h2>14</h2>
+      <div className="h-80 grid grid-cols-4 content-around gap-2 border-4 border-red-400">
+        <div className="h-20 border-4 border-blue-500">hello 1</div>
+        <div className="border-4 border-blue-500">hello 2</div>
+        <div className="h-20 border-4 border-blue-500">hello 3</div>
+        <div className="h-20 border-4 border-blue-500">hello 4</div>
+        <div className="h-20 border-4 border-blue-500">hello 5</div>
+        <div className="h-20 border-4 border-blue-500">hello 6</div>
+      </div>
+      <h2>15</h2>
+      <div className="grid grid-cols-4 gap-2 border-4 border-red-400">
+        <div className="border-4 border-blue-500">hello 1</div>
+        <div className="border-4 border-blue-500 order-last">hello 2</div>
+        <div className="border-4 border-blue-500">hello 3</div>
+        <div className="border-4 border-blue-500">hello 4</div>
+        <div className="border-4 border-blue-500">hello 5</div>
+        <div className="border-4 border-blue-500">hello 6</div>
+      </div>
     </>
   );
 }
