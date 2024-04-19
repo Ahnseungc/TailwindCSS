@@ -408,6 +408,46 @@ export default function Home() {
         <div className="border-4 border-blue-500">hello 5</div>
         <div className="border-4 border-blue-500">hello 6</div>
       </div>
+
+      {/* transition */}
+      <div className="flew h-64 justify-center items-center">
+        <button
+          className="transition ease-in-out delay-150 bg-blue-500
+        hover:-translate-y-1 hovber:scale-110 hover:bg-indigo-500 duration-300 rounded p-5 m-3 text-white      
+        "
+        >
+          save changes
+        </button>
+        <button
+          className="transition ease-linear delay-150 bg-blue-500
+        hover:-translate-y-1 hovber:scale-110 hover:bg-indigo-500 duration-300 rounded p-5 m-3 text-white      
+        "
+        >
+          save changes
+        </button>
+        <button className="transition ease-in-out bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-100 rounded p-5 m-3 text-white">
+          Save Changes
+        </button>
+      </div>
+
+      {/* animation */}
+      <div className="relative rounded-xl overflow-auto p-8">
+        <div className="flex items-center justify-center">
+          <span className="relative inline-flex">
+            <button
+              type="button"
+              className="inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-sky-500 bg-white dark:bg-slate-800 transition ease-in-out duration-150 cursor-not-allowed ring-4 ring-slate-900/10 dark:ring-slate-200/20
+              "
+            >
+              transactions
+            </button>
+            <span className="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+            </span>
+          </span>
+        </div>
+      </div>
     </>
   );
 }
